@@ -207,14 +207,14 @@ H5P.Blanks = (function ($, Question) {
         self.showEvaluation();
 
         // Emit screenshot
-        setTimeout(() => {
+        setTimeout(function() {
           if (H5P && H5P.KLScreenshot) {
             H5P.KLScreenshot.takeScreenshot(
               self,
               $container.get(0).querySelector('.h5p-container')
             );
           }
-        }, 500); // Allow results to display
+        }, 1000); // Allow results to display
 
         self.triggerAnswered();
       }, true, {
