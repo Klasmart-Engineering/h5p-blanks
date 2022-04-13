@@ -3,8 +3,8 @@
   "description": "Test your users with fill in the blanks tasks(Cloze tests).",
   "machineName": "H5P.Blanks",
   "majorVersion": 1,
-  "minorVersion": 12,
-  "patchVersion": 13,
+  "minorVersion": 13,
+  "patchVersion": 0,
   "runnable": 1,
   "license": "MIT",
   "author": "Joubel",
@@ -35,14 +35,14 @@
       "minorVersion": 5
     },
     {
-      "machineName": "H5P.Question",
+      "machineName": "FontKidsLoop",
       "majorVersion": 1,
-      "minorVersion": 4
+      "minorVersion": 0
     },
     {
-      "machineName": "H5P.JoubelUI",
+      "machineName": "H5P.Question",
       "majorVersion": 1,
-      "minorVersion": 3
+      "minorVersion": 5
     },
     {
       "machineName": "H5P.TextUtilities",
@@ -58,6 +58,11 @@
     },
     {
       "machineName": "H5PEditor.ShowWhen",
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    {
+      "machineName": "EditorFontKidsLoop",
       "majorVersion": 1,
       "minorVersion": 0
     }

@@ -1,4 +1,5 @@
 .h5p-blanks {
+  font-family: 'Roboto', sans-serif;
   position: relative;
 }
 .h5p-blanks .h5p-input-wrapper {
@@ -6,7 +7,7 @@
   position: relative;
 }
 .h5p-blanks .h5p-text-input {
-  font-family: H5PDroidSans, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
   border-radius: 0.25em;
   border: 1px solid #a0a0a0;
