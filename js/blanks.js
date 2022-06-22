@@ -591,7 +591,7 @@ H5P.Blanks = (function ($, Question) {
     }
 
     if (this.params.behaviour.enableRetry) {
-      if ((state === STATE_CHECKING && !allCorrect) || state === STATE_SHOWING_SOLUTION) {
+      if (state === STATE_CHECKING || state === STATE_SHOWING_SOLUTION || state === STATE_FINISHED) {
         this.showButton('try-again');
       }
       else {
